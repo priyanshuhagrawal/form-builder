@@ -1,0 +1,150 @@
+/* Container styling */
+.create-form-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.create-form-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form title input */
+.create-form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.create-form-container input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Select input */
+.create-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.create-form-container select:focus {
+    border-color: #007bff;
+}
+
+/* Button styling */
+.create-form-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+.create-form-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Section styling */
+.create-form-container .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.create-form-container .section input {
+    margin-bottom: 10px;
+}
+
+.create-form-container .section h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Input items inside sections */
+.create-form-container .input-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.create-form-container .input-item div {
+    flex: 1;
+}
+
+.create-form-container .input-item button {
+    background-color: #ff4d4d;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.create-form-container .input-item button:hover {
+    background-color: #e60000;
+}
+
+/* Add section button */
+.create-form-container .add-section-button {
+    background-color: #28a745;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.create-form-container .add-section-button:hover {
+    background-color: #218838;
+}
+
+/* Input form fields (Global) */
+.create-form-container .input-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form-container .input-fields input,
+.create-form-container .input-fields select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Drag-and-drop styling */
+.create-form-container .drag-container {
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
